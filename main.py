@@ -14,4 +14,4 @@ app.websocket("/ws")(websocket_endpoint)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=10000, reload=True)
