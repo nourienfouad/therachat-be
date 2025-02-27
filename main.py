@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-PORT = os.getenv("PORT", 8000)
+PORT = os.getenv("PORT", 10000)
 
 app = FastAPI()
 
